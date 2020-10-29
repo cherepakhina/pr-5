@@ -5,7 +5,8 @@
    <title>Slider</title>
    <link rel="stylesheet" href="assets/css/layout.css">
    <link rel="stylesheet" href="assets/css/style.css">
-   
+   <link rel="stylesheet" href="assets/css/fonts.css">
+   <link rel="stylesheet" href="assets/css/slide.css">
 </head>
 <body>
     <header class="header"><p>
@@ -17,7 +18,13 @@
    <main class="center column">
        <article>
            <h1>Slider</h1>
-           <p></p>
+            <div id="mySlider"></div>
+        <div class="prev">
+            <button onclick="prevSlide()">prev</button>
+        </div>
+        <div class="next">
+            <button onclick="nextSlide()">next</button>
+        </div>
        </article>
    </main>
    <nav class="left column">
@@ -42,5 +49,6 @@
          </div>
     </p></footer>
  </div>
+ <script src="assets/js/script.js"></script>
 </body>
 </html>

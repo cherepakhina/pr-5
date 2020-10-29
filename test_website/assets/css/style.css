@@ -1,4 +1,4 @@
-table {
+ table {
 	border-collapse: collapse;
 	width: 100%;
   }
@@ -7,12 +7,12 @@ table {
 	border: 1px solid #DAA520;
   }
  
-  th {
+ th {
 	 background-color: #696969;
 	 color: white;
   }
  
-  label {
+ label {
 	 color: #696969;
 	 font-size: 14px;
   }
@@ -135,13 +135,45 @@ table {
    padding: 20px 20px;
 }
 
-.article .img {
+ .article .img {
 	margin: 20px;
 	padding: 20px 20px;
 }
 
-.about .h1 {
+ .about .h1 {
 	text-align: center;
     text-transform: uppercase;
     color: #4CAF50;
+}
+
+ .prev button {
+	display: block;
+	float: left;
+	transform: translate(0%, -100%);
+	background: rgba(189, 235, 204, 0.5);
+	color: #235c40d3;
+	font-size: 16px;
+	padding: 16px 30px;
+	border-radius: 0px 25px 0px 0px;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'opensans-regular';
+	transition: all 0.3s ease-out;
+}
+
+ .next button {
+	display: block;
+	float: right;
+	transform: translate(0%, -100%);
+	background: rgba(189, 235, 204, 0.5);
+	color: #235c40d3;
+	font-size: 16px;
+	padding: 16px 30px;
+	border-radius: 25px 0px 0px 0px;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'opensans-regular';
+	transition: all 0.3s ease-out;
 }
