@@ -1,0 +1,37 @@
+body
+{
+    background: white;
+}
+.tools
+{
+    float: left;
+    font-family: 'sans-serif';
+    font-size: 14px;
+    background:  #F7FDEB;
+    padding: 10px 15px 3px 10px;
+    margin-bottom: 1px;
+    margin-right: 10px;
+    border: 1px solid green;
+}
+
+input[type=button]
+{
+    padding: 6px;
+    margin: 7px 2px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+input[type=color]
+{
+    margin: 7px 2px;
+}
+
+.tools label
+{
+    padding-bottom: 8px;
+    margin: 7px 2px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
